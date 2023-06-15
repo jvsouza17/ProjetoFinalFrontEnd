@@ -1,0 +1,162 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    top: 0px;
+}
+
+ul{
+    float: right;
+    transform: translateX(-150px) translateY(10px);
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+}
+
+.paginas_menu{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.paginas_menu:hover{
+    background-color: rgb(209, 208, 208);
+}
+
+.paginas{
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.paginas:hover{
+    background-color: rgb(209, 208, 208);
+}
+
+.menu{
+    color: black;
+    float: left;
+    transform: translateX(200px);
+}
+
+.menu ul{
+    box-sizing: border-box; 
+}
+
+header {
+    width: 100%;
+    height: 1000px; 
+}
+
+.img{
+    background-image: url(img1.jpg);
+    filter: brightness(50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.titulo {
+    display: block;
+    margin-inline-start: 20%;
+    margin-inline-end: 50%;
+    margin-block: 20px;
+    font-weight: 700;
+    color: white;
+    transform: translateY(-500px);
+    font-size: 45px;
+}
+
+.sub_titulo{
+    margin-inline-start: 20%;
+    margin-inline-end: 30%;
+    color: white;
+    transform: translateY(-500px);
+    font-size: 20px;
+}
+
+section{
+    width: 100%;
+    height: 0px;
+    margin: 0px;
+    border: 0px;
+    text-align: center;
+}
+
+.container_principal{
+    width: 60%;
+    margin-inline-start: 20%;
+    margin-inline-end: 5%;
+    background-color: rgb(185, 185, 185);
+    transform: translateY(-350px);
+}
+
+.sub{
+    text-align: left;
+    padding: 30px;
+    padding-bottom: 5px;
+    border: 0;
+    margin: 0;
+}
+
+.texto_principal{
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;   
+}
+
+.container_final{
+    margin-block-start: -50px;
+    margin-inline-start: 35%;
+    margin-inline-end: 35%;
+    margin-top: 5px;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(190, 190, 190);
+}
+
+.contatos_titulo{
+    text-align: center;
+    padding: 20px;
+}
+
+.contatos{
+    text-align: center;
+}
+
+.contatos:nth-last-of-type(odd){
+    transform: rotateY(-20px);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.contatos_link{
+    text-decoration: none;
+    color: black;
+}
+
+.contatos_link:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+  
